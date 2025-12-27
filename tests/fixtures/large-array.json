@@ -1,0 +1,51 @@
+{
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Product 1",
+      "price": 99.99,
+      "categories": ["electronics", "gadgets"],
+      "specs": {
+        "weight": "200g",
+        "dimensions": {
+          "width": 10,
+          "height": 5,
+          "depth": 2
+        }
+      }
+    },
+    {
+      "id": "prod-2",
+      "name": "Product 2",
+      "price": 149.99,
+      "categories": ["electronics"],
+      "specs": {
+        "weight": "300g",
+        "dimensions": {
+          "width": 15,
+          "height": 8,
+          "depth": 3
+        }
+      }
+    },
+    {
+      "id": "prod-3",
+      "name": "Product 3",
+      "price": 199.99,
+      "categories": ["accessories"],
+      "specs": {
+        "weight": "100g",
+        "dimensions": {
+          "width": 5,
+          "height": 3,
+          "depth": 1
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "total": 3,
+    "page": 1,
+    "lastUpdated": "2025-01-01T00:00:00Z"
+  }
+}

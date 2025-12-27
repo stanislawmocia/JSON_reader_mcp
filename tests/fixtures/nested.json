@@ -1,0 +1,47 @@
+{
+  "user": {
+    "id": 123,
+    "profile": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "preferences": {
+        "theme": "dark",
+        "notifications": {
+          "email": true,
+          "push": false,
+          "sms": true
+        }
+      }
+    },
+    "posts": [
+      {
+        "id": 1,
+        "title": "First Post",
+        "content": "Hello World",
+        "tags": ["intro", "test"],
+        "metadata": {
+          "views": 100,
+          "likes": 5
+        }
+      },
+      {
+        "id": 2,
+        "title": "Second Post",
+        "content": "Another post",
+        "tags": ["update"],
+        "metadata": {
+          "views": 250,
+          "likes": 12
+        }
+      }
+    ]
+  },
+  "stats": {
+    "totalUsers": 1000,
+    "activeUsers": 750,
+    "metrics": {
+      "daily": [10, 15, 20, 25, 30],
+      "weekly": [100, 120, 140]
+    }
+  }
+}

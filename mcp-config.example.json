@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "json-reader": {
+      "command": "node",
+      "args": [
+        "/path/to/mcp-json-reader-server/build/index.js"
+      ],
+      "env": {
+        "MAX_JSON_SIZE_MB": "100",
+        "CACHE_TTL_SECONDS": "3600",
+        "CACHE_CHECK_PERIOD_SECONDS": "600"
+      }
+    }
+  }
+}
